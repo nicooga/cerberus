@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    cerberus (0.0.1)
+    rails_cerberus (0.0.1)
       omniauth (~> 1.0)
       rails (~> 4.0.5)
 
@@ -113,7 +113,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  cerberus!
   omniauth-google-oauth2
   pry
+  rails_cerberus!
   sqlite3

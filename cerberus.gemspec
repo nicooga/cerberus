@@ -5,7 +5,7 @@ require "cerberus/version"
 
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
-  s.name        = "cerberus"
+  s.name        = "rails_cerberus"
   s.version     = Cerberus::VERSION
   s.authors     = ['Nicolas Oga']
   s.email       = ['2112.oga@gmail.coom']
