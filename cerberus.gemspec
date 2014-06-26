@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.version     = Cerberus::VERSION
   s.authors     = ['Nicolas Oga']
   s.email       = ['2112.oga@gmail.coom']
-  s.homepage    = ['https://github.com/nicooga/cerberus']
+  s.homepage    = 'https://github.com/nicooga/cerberus'
   s.summary     = 'RoR + omniauth wrapper'
   s.description = 'Little wrapper aroudn Rails and Omniauth to authenticate users'
 
