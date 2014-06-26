@@ -16,6 +16,12 @@ identities:
   user_class_name: User
 ~~~
 ### Usage
+
+~~~bash
+# run the migration task to create cerberus_identites table
+rake db:migrate:cerberus
+~~~
+
 ~~~ruby
 # config/initializers/omniauth.rb
 # configure omniauth keys
