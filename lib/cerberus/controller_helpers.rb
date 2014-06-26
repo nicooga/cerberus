@@ -6,6 +6,7 @@ module Cerberus::ControllerHelpers
   end
 
   def current_user
-    Cerberus.config.user_class.constantize.find(session[:user_id]) if session[:user_id]
+    Cerberus.config[:identity][:user_class_name]
+    .constantize.find(session[:user_id]) if session[:user_id]
   end
 end

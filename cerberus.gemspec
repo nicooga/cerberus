@@ -19,5 +19,6 @@ Gem::Specification.new do |s|
   s.add_dependency "rails", "~> 4.0.5"
 
   s.add_development_dependency "sqlite3"
+  s.add_development_dependency "pry"
   s.add_dependency 'omniauth', '~> 1.0'
 end
