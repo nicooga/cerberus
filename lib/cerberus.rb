@@ -7,13 +7,17 @@ module Cerberus
   def self.root() File.dirname(__dir__) end
   def self.config
     config_defaults.deep_merge(
-      YAML.load_file(
-        File.join(Dir.pwd, 'config/cerberus.yaml')
-      ).with_indifferent_access
-    )
+      begin
+        YAML.load_file(
+          File.join(Dir.pwd, 'config/cerberus.yaml')
+        )
+      rescue Errno::ENOENT
+        {}
+      end
+    ).with_indifferent_access
   end
   def self.config_defaults
-    { identity: { user_class_name: 'User' } }
+    { identities: { user_class_name: 'User' } }
   end
 end
 
