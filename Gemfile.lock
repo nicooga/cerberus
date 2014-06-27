@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    rails_cerberus (0.0.1)
+    rails_cerberus (0.0.2)
       omniauth (~> 1.0)
       rails (~> 4.0.5)
 
