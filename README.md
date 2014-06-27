@@ -45,7 +45,7 @@ class ApplicationController < ActionController::Base
   helper_method :current_user
 
   def current_user
-    Cerberus.config[:identity][:user_class_name]
+    Cerberus.config[:identities][:user_class_name]
     .constantize.find(session[:user_id]) if session[:user_id]
   end
 end
