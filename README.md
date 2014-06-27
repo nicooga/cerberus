@@ -5,7 +5,7 @@ This is a tiny plugin for Rails 3+ that uses omniauth to provide authentication.
 
 ## Installation
 ~~~ruby
-gem 'cerberus'
+gem 'rails_cerberus'
 gem 'omniauth-google-oauth2' # include all the providers gems you are gonna use
 ~~~
 
