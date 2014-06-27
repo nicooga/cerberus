@@ -1,7 +1,8 @@
 Cerberus
 ========
 
-This is a tiny plugin for Rails 3+ that uses omniauth to provide authentication.
+This is a tiny plugin for Rails 3+ that uses omniauth to provide authentication and it's name is Cerberus.
+![](http://th00.deviantart.net/fs71/PRE/f/2011/181/7/f/cerberus_by_genzoman-d3kkisd.jpg)
 
 ## Installation
 ~~~ruby
